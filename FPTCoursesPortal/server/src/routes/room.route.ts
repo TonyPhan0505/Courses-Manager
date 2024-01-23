@@ -1,0 +1,20 @@
+/////////////////////// Import dependencies /////////////////////
+import roomExpress from 'express';
+import {
+    fetch as fetchController,
+    create as createController
+} from '../controllers/room.controller';
+const roomRouter = roomExpress.Router();
+/////////////////////////////////////////////////////////////////
+
+/////////////////////////// Routes ///////////////////////////
+roomRouter.route('/fetch')
+.post(fetchController);
+
+roomRouter.route('/create')
+.post(createController);
+/////////////////////////////////////////////////////////////
+
+///////// Exports /////////
+export default roomRouter;
+//////////////////////////
