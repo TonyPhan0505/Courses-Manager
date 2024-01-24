@@ -108,6 +108,8 @@ export default function CreateClassScreen(props: Props) {
       });
       // cache chosen building and room
       cacheItems();
+      // reset submission state
+      setFormSubmitted(false);
       // return to classes screen
       navigation.goBack();
     }
@@ -129,7 +131,7 @@ export default function CreateClassScreen(props: Props) {
         courseId: courseId,
         className: className,
         trainer: trainer,
-        date: date,
+        date: date.getTime(),
         startedTime: startedTime.getTime(),
         endedTime: endedTime.getTime(),
         buildingId: getBuildingIdByName(),

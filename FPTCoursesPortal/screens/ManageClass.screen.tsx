@@ -129,6 +129,8 @@ export default function ManageClassScreen(props: Props) {
             });
             // cache chosen building and room
             cacheItems();
+            // reset submission state
+            setFormSubmitted(false);
             // return to classes screen
             navigation.navigate("Classes", {
                 courseId: courseId

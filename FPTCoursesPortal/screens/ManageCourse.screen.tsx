@@ -124,6 +124,8 @@ export default function ManageCourseScreen(props: Props) {
             });
             // cache chosen building and room
             cacheItems();
+            // reset submission state
+            setFormSubmitted(false);
             // return to home screen
             navigation.navigate("Home");
         }
