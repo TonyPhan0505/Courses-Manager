@@ -1,5 +1,29 @@
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
+#Demo video:
+https://www.youtube.com/watch?v=Jh-HHbPE6Ic
+
+# Screenshots:
+### Login screen:
+<img width="388" alt="login_screen" src="https://github.com/TonyPhan0505/FPTCoursesPortal/assets/87828913/4d06d614-3605-4559-9ff2-9477287a43a9">
+
+### Custom-made drawer:
+<img width="406" alt="custom drawer" src="https://github.com/TonyPhan0505/FPTCoursesPortal/assets/87828913/86eb4646-f566-4a0d-ab89-98351b65e86c">
+
+### Add course screen:
+<img width="404" alt="create course" src="https://github.com/TonyPhan0505/FPTCoursesPortal/assets/87828913/9f206aa8-5d2b-4ef2-bc92-ed1e36256913">
+
+### Add class screen:
+<img width="402" alt="create class 1" src="https://github.com/TonyPhan0505/FPTCoursesPortal/assets/87828913/85b8a9a3-0821-417e-b319-8deb691d855a">
+<img width="400" alt="create class 2" src="https://github.com/TonyPhan0505/FPTCoursesPortal/assets/87828913/ec5f4504-9036-43fc-a192-01955abfcac5">
+
+### Courses screen:
+<img width="402" alt="courses" src="https://github.com/TonyPhan0505/FPTCoursesPortal/assets/87828913/8d435061-36b0-4521-b112-72485699d9ed">
+
+### Classes screen:
+<img width="401" alt="classes" src="https://github.com/TonyPhan0505/FPTCoursesPortal/assets/87828913/22c3378b-75ce-49b3-aaa0-3219cd7550d6">
+
+
 # Getting Started
 
 >**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
